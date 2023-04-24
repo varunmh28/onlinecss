@@ -1,0 +1,11 @@
+pipeline{
+agent any 
+stages{
+stage('Build'){
+echo 'Hi , welcome to pipeline demo'
+}
+stage('Test'){
+echo ('')
+}
+}
+}
