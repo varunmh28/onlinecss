@@ -3,7 +3,7 @@ Microsoft Windows [Version 10.0.19045.2846]
 (c) Microsoft Corporation. All rights reserved.
 C:\Users\HP>cd documents
 C:\Users\HP\Documents>cd devopslabexp1
-C:\Users\HP\Documents\devopslabexp1>git clone
+C:\Users\HP\Documents\devopslabexp1>git clone 
 https://github.com/Abhilitcode/devopsexpone.git
 Cloning into 'devopsexpone'...
 warning: You appear to have cloned an empty repository.
@@ -44,3 +44,15 @@ Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/Abhilitcode/devopsexpone.git
 * [new branch] main -> main
 
+
+Pull all files in local machine.
+C:\Users\HP\Documents\devopslabexp1>cd devopsexpone
+C:\Users\HP\Documents\devopslabexp1\devopsexpone>git pull origin main
+remote: Enumerating objects: 5, done.
+remote: Counting objects: 100% (5/5), done.
+remote: Compressing objects: 100% (5/5), done.
+remote: Total 5 (delta 0), reused 5 (delta 0), pack-reused 0
+Unpacking objects: 100% (5/5), 538 bytes | 1024 bytes/s, done.
+From https://github.com/Abhilitcode/devopsexpone
+* branch main -> FETCH_HEAD
+* [new branch] main -> origin/main
